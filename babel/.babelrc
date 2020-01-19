@@ -1,0 +1,3 @@
+{
+  "presets": ["@babel/preset-env"] // 사용할 바벨 문법 패키지
+}
