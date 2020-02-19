@@ -6,6 +6,8 @@
 
 ## DEVELOP SKILLS
 
+### [Webpack with React](./javascript/README.md)
+
 ### [Webpack with React](./webpack/README.md)
 
 ### [typescript](./typescript/basicTypes/README.md)
@@ -14,4 +16,4 @@
 
 ---
 
-last update:`2020-01-20`
+last update:`2020-02-19`
