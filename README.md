@@ -6,9 +6,9 @@
 
 ## DEVELOP SKILLS
 
-### [Webpack with React](./javascript/README.md)
+### [javascript](./javascript/README.md)
 
-### [Webpack with React](./webpack/README.md)
+### [webpack with React](./webpack/README.md)
 
 ### [typescript](./typescript/basicTypes/README.md)
 
