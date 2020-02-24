@@ -10,7 +10,7 @@
 
 ### [webpack with React](./webpack/README.md)
 
-### [typescript](./typescript/basicTypes/README.md)
+### [typescript](./typescript/README.md)
 
 ### [redux](./redux/README.md)
 
