@@ -111,3 +111,33 @@
 
   > * NOTE: `interfcae` & `types` 를 사용 할때 콤마 또는 세미콜론으로 구분자를 필수적으로 사용해야 한다.
 
+### useRef
+타입스크립트 환경에서 useRef 를 통해 어떤 변수 값을 관리하고 싶을 땐 다음과 같은 코드를 작성
+
+*변수 값 관리하기*
+
+  ```javascript
+  const id = useRef<number>(0);
+  const increaseId = () => {
+    id.current += 1;
+  }
+  ```
+
+`useRef` 를 쓸땐 위와 같은 코드처럼 `Generic` 을 통해 `~.current` 의 값을 추론 할 수 있다.
+
+*돔 관리하기*
+ref 안에 DOM 을 담을 때도 마찬가지입니다. 
+> 단, 초깃값은 null 로 설정
+
+
+
+### TS on Redux
+
+1. redux action deceleration
+
+type을 선언 할 때에는 다음과 같이 문자열 뒤에 `as const` 라는 키워드를 붙여준다.
+`as const`는 `const assertions`라는 `TS` 문법이다. 
+이 문법을 사용하면 우리가 추후 액션 생성함수를 통해 액션 객체를 만들게 됐을 때 type의 `TS` 타입이 string이 되지 않고 실제값을 가르키게 된다.
+
+
+
